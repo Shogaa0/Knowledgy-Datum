@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Knowledgy">
+  <parameter name="browser" value="chrome"></parameter>
+  <test name="System Test">
+    <classes>
+				<class name="testCases.LoginTest"/>
+     	 		<class name="testCases.RegistrationTest"/>
+    	  		<class name="testCases.MyAccountTest"/>
+   		  		<class name="testCases.CourseSearchTest"/>
+      		 	<class name="testCases.ChangePasswordTest"/>
+				<class name="testCases.ForgetPasswordEmailTest"/>
+				<class name="testCases.ForgetPasswordOTPTest"/>
+				<class name="testCases.ForgetPasswordResetPasswordTest"/>
+       
+    </classes>
+  </test> 
+</suite> 
