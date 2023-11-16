@@ -33,7 +33,7 @@ public class RegistrationTest extends TestBase
 	@Test(enabled  = true, priority = 14)
 	public void RegisterHappyScinario() 
 	{
-		RegisterPageObject.UserRegister("Amr", "Moustafa", "Amr2Shogaa0@Mailinator.com", "11112222", "11112222");
+		RegisterPageObject.UserRegister("Amr", "Moustafa", "AmrtShogaa0@Mailinator.com", "11112222", "11112222");
 		ScrollDown();
 		WaitElementToBeClickable(RegisterPageObject.confirmSignUpBTN);
 		RegisterPageObject.ClickSignupButton();
