@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="14" total="73" passed="58" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-22T05:36:37 EET" name="Knowledgy" finished-at="2023-11-22T05:39:09 EET" duration-ms="151408">
+    <groups>
+    </groups>
+    <test started-at="2023-11-22T05:36:37 EET" name="System Test" finished-at="2023-11-22T05:39:09 EET" duration-ms="151408">
+      <class name="testCases.MyAccountTest">
+        <test-method is-config="true" signature="openURL()[pri:0, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:27 EET" name="openURL" finished-at="2023-11-22T05:37:27 EET" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method is-config="true" signature="beforeOpenMyAccountPage()[pri:0, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:27 EET" name="beforeOpenMyAccountPage" finished-at="2023-11-22T05:37:32 EET" duration-ms="4896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeOpenMyAccountPage -->
+        <test-method is-config="true" signature="WaitDateToReturnToInputsFromAPI()[pri:0, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:32 EET" name="WaitDateToReturnToInputsFromAPI" finished-at="2023-11-22T05:37:34 EET" duration-ms="1711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WaitDateToReturnToInputsFromAPI -->
+        <test-method signature="EditProfileFirstNameMinLength()[pri:1, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:34 EET" name="EditProfileFirstNameMinLength" finished-at="2023-11-22T05:37:35 EET" duration-ms="1210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditProfileFirstNameMinLength -->
+        <test-method is-config="true" signature="BeforEachMethodMyAccount()[pri:0, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:35 EET" name="BeforEachMethodMyAccount" finished-at="2023-11-22T05:37:37 EET" duration-ms="1219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforEachMethodMyAccount -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:37 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:37:37 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditProfileFirstNameMinLength status=SUCCESS method=MyAccountTest.EditProfileFirstNameMinLength()[pri:1, instance:testCases.MyAccountTest@3aa078fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method is-config="true" signature="WaitDateToReturnToInputsFromAPI()[pri:0, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:37 EET" name="WaitDateToReturnToInputsFromAPI" finished-at="2023-11-22T05:37:37 EET" duration-ms="868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WaitDateToReturnToInputsFromAPI -->
+        <test-method signature="EditProfileFirstNameMaxLength()[pri:2, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:37 EET" name="EditProfileFirstNameMaxLength" finished-at="2023-11-22T05:37:38 EET" duration-ms="1049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditProfileFirstNameMaxLength -->
+        <test-method is-config="true" signature="BeforEachMethodMyAccount()[pri:0, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:38 EET" name="BeforEachMethodMyAccount" finished-at="2023-11-22T05:37:39 EET" duration-ms="905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforEachMethodMyAccount -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:39 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:37:39 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditProfileFirstNameMaxLength status=SUCCESS method=MyAccountTest.EditProfileFirstNameMaxLength()[pri:2, instance:testCases.MyAccountTest@3aa078fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method is-config="true" signature="WaitDateToReturnToInputsFromAPI()[pri:0, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:39 EET" name="WaitDateToReturnToInputsFromAPI" finished-at="2023-11-22T05:37:40 EET" duration-ms="656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WaitDateToReturnToInputsFromAPI -->
+        <test-method signature="EditProfileLeaveFirstNameEmpty()[pri:3, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:40 EET" name="EditProfileLeaveFirstNameEmpty" finished-at="2023-11-22T05:37:41 EET" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditProfileLeaveFirstNameEmpty -->
+        <test-method is-config="true" signature="BeforEachMethodMyAccount()[pri:0, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:41 EET" name="BeforEachMethodMyAccount" finished-at="2023-11-22T05:37:42 EET" duration-ms="892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforEachMethodMyAccount -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:42 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:37:42 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditProfileLeaveFirstNameEmpty status=SUCCESS method=MyAccountTest.EditProfileLeaveFirstNameEmpty()[pri:3, instance:testCases.MyAccountTest@3aa078fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method is-config="true" signature="WaitDateToReturnToInputsFromAPI()[pri:0, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:42 EET" name="WaitDateToReturnToInputsFromAPI" finished-at="2023-11-22T05:37:42 EET" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WaitDateToReturnToInputsFromAPI -->
+        <test-method signature="EditProfileLastNameMinLength()[pri:4, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:42 EET" name="EditProfileLastNameMinLength" finished-at="2023-11-22T05:37:43 EET" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditProfileLastNameMinLength -->
+        <test-method is-config="true" signature="BeforEachMethodMyAccount()[pri:0, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:43 EET" name="BeforEachMethodMyAccount" finished-at="2023-11-22T05:37:44 EET" duration-ms="908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforEachMethodMyAccount -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:44 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:37:44 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditProfileLastNameMinLength status=SUCCESS method=MyAccountTest.EditProfileLastNameMinLength()[pri:4, instance:testCases.MyAccountTest@3aa078fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method is-config="true" signature="WaitDateToReturnToInputsFromAPI()[pri:0, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:44 EET" name="WaitDateToReturnToInputsFromAPI" finished-at="2023-11-22T05:37:45 EET" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WaitDateToReturnToInputsFromAPI -->
+        <test-method signature="EditProfileLastNameMaxLength()[pri:5, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:45 EET" name="EditProfileLastNameMaxLength" finished-at="2023-11-22T05:37:46 EET" duration-ms="800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditProfileLastNameMaxLength -->
+        <test-method is-config="true" signature="BeforEachMethodMyAccount()[pri:0, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:46 EET" name="BeforEachMethodMyAccount" finished-at="2023-11-22T05:37:46 EET" duration-ms="793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforEachMethodMyAccount -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:46 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:37:46 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditProfileLastNameMaxLength status=SUCCESS method=MyAccountTest.EditProfileLastNameMaxLength()[pri:5, instance:testCases.MyAccountTest@3aa078fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method is-config="true" signature="WaitDateToReturnToInputsFromAPI()[pri:0, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:46 EET" name="WaitDateToReturnToInputsFromAPI" finished-at="2023-11-22T05:37:47 EET" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WaitDateToReturnToInputsFromAPI -->
+        <test-method signature="EditProfileLeavelastNameEmpty()[pri:6, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:47 EET" name="EditProfileLeavelastNameEmpty" finished-at="2023-11-22T05:37:48 EET" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditProfileLeavelastNameEmpty -->
+        <test-method is-config="true" signature="BeforEachMethodMyAccount()[pri:0, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:48 EET" name="BeforEachMethodMyAccount" finished-at="2023-11-22T05:37:49 EET" duration-ms="746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforEachMethodMyAccount -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:49 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:37:49 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditProfileLeavelastNameEmpty status=SUCCESS method=MyAccountTest.EditProfileLeavelastNameEmpty()[pri:6, instance:testCases.MyAccountTest@3aa078fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method is-config="true" signature="WaitDateToReturnToInputsFromAPI()[pri:0, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:49 EET" name="WaitDateToReturnToInputsFromAPI" finished-at="2023-11-22T05:37:49 EET" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WaitDateToReturnToInputsFromAPI -->
+        <test-method signature="EditProfileHappyScienario()[pri:7, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:49 EET" name="EditProfileHappyScienario" finished-at="2023-11-22T05:37:50 EET" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditProfileHappyScienario -->
+        <test-method is-config="true" signature="BeforEachMethodMyAccount()[pri:0, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:50 EET" name="BeforEachMethodMyAccount" finished-at="2023-11-22T05:37:51 EET" duration-ms="813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforEachMethodMyAccount -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:51 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:37:51 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditProfileHappyScienario status=SUCCESS method=MyAccountTest.EditProfileHappyScienario()[pri:7, instance:testCases.MyAccountTest@3aa078fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method is-config="true" signature="LogOutAfterClass()[pri:0, instance:testCases.MyAccountTest@3aa078fd]" started-at="2023-11-22T05:37:51 EET" name="LogOutAfterClass" finished-at="2023-11-22T05:37:51 EET" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutAfterClass -->
+      </class> <!-- testCases.MyAccountTest -->
+      <class name="testCases.ChangePasswordTest">
+        <test-method is-config="true" signature="openURL()[pri:0, instance:testCases.ChangePasswordTest@14dd7b39]" started-at="2023-11-22T05:38:35 EET" name="openURL" finished-at="2023-11-22T05:38:35 EET" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method is-config="true" signature="beforeOpenMyAccountPage()[pri:0, instance:testCases.ChangePasswordTest@14dd7b39]" started-at="2023-11-22T05:38:35 EET" name="beforeOpenMyAccountPage" finished-at="2023-11-22T05:38:39 EET" duration-ms="3431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeOpenMyAccountPage -->
+        <test-method signature="ChangePasswordOldPasswordEmptyError()[pri:1, instance:testCases.ChangePasswordTest@14dd7b39]" started-at="2023-11-22T05:38:39 EET" name="ChangePasswordOldPasswordEmptyError" finished-at="2023-11-22T05:38:40 EET" duration-ms="887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangePasswordOldPasswordEmptyError -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.ChangePasswordTest@14dd7b39]" started-at="2023-11-22T05:38:40 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:38:40 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ChangePasswordOldPasswordEmptyError status=SUCCESS method=ChangePasswordTest.ChangePasswordOldPasswordEmptyError()[pri:1, instance:testCases.ChangePasswordTest@14dd7b39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="ChangePasswordOldPasswordMinLengthError()[pri:2, instance:testCases.ChangePasswordTest@14dd7b39]" started-at="2023-11-22T05:38:40 EET" name="ChangePasswordOldPasswordMinLengthError" finished-at="2023-11-22T05:38:40 EET" duration-ms="744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangePasswordOldPasswordMinLengthError -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.ChangePasswordTest@14dd7b39]" started-at="2023-11-22T05:38:40 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:38:40 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ChangePasswordOldPasswordMinLengthError status=SUCCESS method=ChangePasswordTest.ChangePasswordOldPasswordMinLengthError()[pri:2, instance:testCases.ChangePasswordTest@14dd7b39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="ChangePasswordOldPasswordNotMatchError()[pri:3, instance:testCases.ChangePasswordTest@14dd7b39]" started-at="2023-11-22T05:38:40 EET" name="ChangePasswordOldPasswordNotMatchError" finished-at="2023-11-22T05:38:42 EET" duration-ms="1739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangePasswordOldPasswordNotMatchError -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.ChangePasswordTest@14dd7b39]" started-at="2023-11-22T05:38:42 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:38:42 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ChangePasswordOldPasswordNotMatchError status=SUCCESS method=ChangePasswordTest.ChangePasswordOldPasswordNotMatchError()[pri:3, instance:testCases.ChangePasswordTest@14dd7b39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="ChangePasswordNewPasswordEmptyError()[pri:4, instance:testCases.ChangePasswordTest@14dd7b39]" started-at="2023-11-22T05:38:42 EET" name="ChangePasswordNewPasswordEmptyError" finished-at="2023-11-22T05:38:43 EET" duration-ms="956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangePasswordNewPasswordEmptyError -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.ChangePasswordTest@14dd7b39]" started-at="2023-11-22T05:38:43 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:38:43 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ChangePasswordNewPasswordEmptyError status=SUCCESS method=ChangePasswordTest.ChangePasswordNewPasswordEmptyError()[pri:4, instance:testCases.ChangePasswordTest@14dd7b39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="ChangePasswordNewPasswordMinLengthError()[pri:5, instance:testCases.ChangePasswordTest@14dd7b39]" started-at="2023-11-22T05:38:43 EET" name="ChangePasswordNewPasswordMinLengthError" finished-at="2023-11-22T05:38:44 EET" duration-ms="812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangePasswordNewPasswordMinLengthError -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.ChangePasswordTest@14dd7b39]" started-at="2023-11-22T05:38:44 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:38:44 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ChangePasswordNewPasswordMinLengthError status=SUCCESS method=ChangePasswordTest.ChangePasswordNewPasswordMinLengthError()[pri:5, instance:testCases.ChangePasswordTest@14dd7b39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="ChangePasswordConfirmNewPasswordEmptyError()[pri:6, instance:testCases.ChangePasswordTest@14dd7b39]" started-at="2023-11-22T05:38:44 EET" name="ChangePasswordConfirmNewPasswordEmptyError" finished-at="2023-11-22T05:38:45 EET" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangePasswordConfirmNewPasswordEmptyError -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.ChangePasswordTest@14dd7b39]" started-at="2023-11-22T05:38:45 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:38:45 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ChangePasswordConfirmNewPasswordEmptyError status=SUCCESS method=ChangePasswordTest.ChangePasswordConfirmNewPasswordEmptyError()[pri:6, instance:testCases.ChangePasswordTest@14dd7b39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="ChangePasswordConfirmNewPasswordMinLengthError()[pri:7, instance:testCases.ChangePasswordTest@14dd7b39]" started-at="2023-11-22T05:38:45 EET" name="ChangePasswordConfirmNewPasswordMinLengthError" finished-at="2023-11-22T05:38:45 EET" duration-ms="760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangePasswordConfirmNewPasswordMinLengthError -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.ChangePasswordTest@14dd7b39]" started-at="2023-11-22T05:38:45 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:38:45 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ChangePasswordConfirmNewPasswordMinLengthError status=SUCCESS method=ChangePasswordTest.ChangePasswordConfirmNewPasswordMinLengthError()[pri:7, instance:testCases.ChangePasswordTest@14dd7b39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="ChangePasswordConfirmNewPasswordNotMatchError()[pri:8, instance:testCases.ChangePasswordTest@14dd7b39]" started-at="2023-11-22T05:38:45 EET" name="ChangePasswordConfirmNewPasswordNotMatchError" finished-at="2023-11-22T05:38:46 EET" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangePasswordConfirmNewPasswordNotMatchError -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.ChangePasswordTest@14dd7b39]" started-at="2023-11-22T05:38:46 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:38:46 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ChangePasswordConfirmNewPasswordNotMatchError status=SUCCESS method=ChangePasswordTest.ChangePasswordConfirmNewPasswordNotMatchError()[pri:8, instance:testCases.ChangePasswordTest@14dd7b39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="ChangePasswordCurrentPasswordSameNewPassword()[pri:9, instance:testCases.ChangePasswordTest@14dd7b39]" started-at="2023-11-22T05:38:46 EET" name="ChangePasswordCurrentPasswordSameNewPassword" finished-at="2023-11-22T05:38:48 EET" duration-ms="2027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangePasswordCurrentPasswordSameNewPassword -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.ChangePasswordTest@14dd7b39]" started-at="2023-11-22T05:38:48 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:38:48 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ChangePasswordCurrentPasswordSameNewPassword status=SUCCESS method=ChangePasswordTest.ChangePasswordCurrentPasswordSameNewPassword()[pri:9, instance:testCases.ChangePasswordTest@14dd7b39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="ChangePasswordHappyScienario()[pri:10, instance:testCases.ChangePasswordTest@14dd7b39]" started-at="2023-11-22T05:38:48 EET" name="ChangePasswordHappyScienario" finished-at="2023-11-22T05:38:50 EET" duration-ms="1920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangePasswordHappyScienario -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.ChangePasswordTest@14dd7b39]" started-at="2023-11-22T05:38:50 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:38:50 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ChangePasswordHappyScienario status=SUCCESS method=ChangePasswordTest.ChangePasswordHappyScienario()[pri:10, instance:testCases.ChangePasswordTest@14dd7b39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method is-config="true" signature="LogOutAfterClass()[pri:0, instance:testCases.ChangePasswordTest@14dd7b39]" started-at="2023-11-22T05:38:50 EET" name="LogOutAfterClass" finished-at="2023-11-22T05:38:51 EET" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutAfterClass -->
+      </class> <!-- testCases.ChangePasswordTest -->
+      <class name="testCases.ForgetPasswordEmailTest">
+        <test-method is-config="true" signature="openURL()[pri:0, instance:testCases.ForgetPasswordEmailTest@66ea810]" started-at="2023-11-22T05:38:51 EET" name="openURL" finished-at="2023-11-22T05:38:51 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method is-config="true" signature="BeforeForgetPassword()[pri:0, instance:testCases.ForgetPasswordEmailTest@66ea810]" started-at="2023-11-22T05:38:51 EET" name="BeforeForgetPassword" finished-at="2023-11-22T05:38:51 EET" duration-ms="886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeForgetPassword -->
+        <test-method signature="ForgetPasswordEmptyEmial()[pri:1, instance:testCases.ForgetPasswordEmailTest@66ea810]" started-at="2023-11-22T05:38:51 EET" name="ForgetPasswordEmptyEmial" finished-at="2023-11-22T05:38:52 EET" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgetPasswordEmptyEmial -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.ForgetPasswordEmailTest@66ea810]" started-at="2023-11-22T05:38:52 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:38:52 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForgetPasswordEmptyEmial status=SUCCESS method=ForgetPasswordEmailTest.ForgetPasswordEmptyEmial()[pri:1, instance:testCases.ForgetPasswordEmailTest@66ea810] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="ForgetPasswordNotValidEmial()[pri:2, instance:testCases.ForgetPasswordEmailTest@66ea810]" started-at="2023-11-22T05:38:52 EET" name="ForgetPasswordNotValidEmial" finished-at="2023-11-22T05:38:52 EET" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgetPasswordNotValidEmial -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.ForgetPasswordEmailTest@66ea810]" started-at="2023-11-22T05:38:52 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:38:52 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForgetPasswordNotValidEmial status=SUCCESS method=ForgetPasswordEmailTest.ForgetPasswordNotValidEmial()[pri:2, instance:testCases.ForgetPasswordEmailTest@66ea810] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="ForgetPasswordNotRegisteredEmial()[pri:3, instance:testCases.ForgetPasswordEmailTest@66ea810]" started-at="2023-11-22T05:38:52 EET" name="ForgetPasswordNotRegisteredEmial" finished-at="2023-11-22T05:38:53 EET" duration-ms="1026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgetPasswordNotRegisteredEmial -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.ForgetPasswordEmailTest@66ea810]" started-at="2023-11-22T05:38:53 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:38:53 EET" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForgetPasswordNotRegisteredEmial status=SUCCESS method=ForgetPasswordEmailTest.ForgetPasswordNotRegisteredEmial()[pri:3, instance:testCases.ForgetPasswordEmailTest@66ea810] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="ForgetPasswordHappyScinario()[pri:4, instance:testCases.ForgetPasswordEmailTest@66ea810]" started-at="2023-11-22T05:38:53 EET" name="ForgetPasswordHappyScinario" finished-at="2023-11-22T05:38:55 EET" duration-ms="1805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgetPasswordHappyScinario -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.ForgetPasswordEmailTest@66ea810]" started-at="2023-11-22T05:38:55 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:38:55 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForgetPasswordHappyScinario status=SUCCESS method=ForgetPasswordEmailTest.ForgetPasswordHappyScinario()[pri:4, instance:testCases.ForgetPasswordEmailTest@66ea810] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+      </class> <!-- testCases.ForgetPasswordEmailTest -->
+      <class name="testCases.ForgetPasswordOTPTest">
+        <test-method is-config="true" signature="openURL()[pri:0, instance:testCases.ForgetPasswordOTPTest@6cd24612]" started-at="2023-11-22T05:38:55 EET" name="openURL" finished-at="2023-11-22T05:38:55 EET" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method is-config="true" signature="BeforeForgetPassword()[pri:0, instance:testCases.ForgetPasswordOTPTest@6cd24612]" started-at="2023-11-22T05:38:55 EET" name="BeforeForgetPassword" finished-at="2023-11-22T05:38:56 EET" duration-ms="1412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeForgetPassword -->
+        <test-method signature="ForgetPasswordEmptyOTPCode()[pri:4, instance:testCases.ForgetPasswordOTPTest@6cd24612]" started-at="2023-11-22T05:38:56 EET" name="ForgetPasswordEmptyOTPCode" finished-at="2023-11-22T05:38:58 EET" duration-ms="1790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgetPasswordEmptyOTPCode -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.ForgetPasswordOTPTest@6cd24612]" started-at="2023-11-22T05:38:58 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:38:58 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForgetPasswordEmptyOTPCode status=SUCCESS method=ForgetPasswordOTPTest.ForgetPasswordEmptyOTPCode()[pri:4, instance:testCases.ForgetPasswordOTPTest@6cd24612] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="ForgetPasswordNotValidOTPCode()[pri:5, instance:testCases.ForgetPasswordOTPTest@6cd24612]" started-at="2023-11-22T05:38:58 EET" name="ForgetPasswordNotValidOTPCode" finished-at="2023-11-22T05:38:59 EET" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgetPasswordNotValidOTPCode -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.ForgetPasswordOTPTest@6cd24612]" started-at="2023-11-22T05:38:59 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:38:59 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForgetPasswordNotValidOTPCode status=SUCCESS method=ForgetPasswordOTPTest.ForgetPasswordNotValidOTPCode()[pri:5, instance:testCases.ForgetPasswordOTPTest@6cd24612] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="ForgetPasswordWrongOTPCode()[pri:6, instance:testCases.ForgetPasswordOTPTest@6cd24612]" started-at="2023-11-22T05:38:59 EET" name="ForgetPasswordWrongOTPCode" finished-at="2023-11-22T05:39:00 EET" duration-ms="1260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgetPasswordWrongOTPCode -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.ForgetPasswordOTPTest@6cd24612]" started-at="2023-11-22T05:39:00 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:39:00 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForgetPasswordWrongOTPCode status=SUCCESS method=ForgetPasswordOTPTest.ForgetPasswordWrongOTPCode()[pri:6, instance:testCases.ForgetPasswordOTPTest@6cd24612] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="ForgetPasswordHappyScinario()[pri:11, instance:testCases.ForgetPasswordOTPTest@6cd24612]" started-at="2023-11-22T05:39:00 EET" name="ForgetPasswordHappyScinario" finished-at="2023-11-22T05:39:01 EET" duration-ms="1249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgetPasswordHappyScinario -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.ForgetPasswordOTPTest@6cd24612]" started-at="2023-11-22T05:39:01 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:39:01 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForgetPasswordHappyScinario status=SUCCESS method=ForgetPasswordOTPTest.ForgetPasswordHappyScinario()[pri:11, instance:testCases.ForgetPasswordOTPTest@6cd24612] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+      </class> <!-- testCases.ForgetPasswordOTPTest -->
+      <class name="testCases.RegistrationTest">
+        <test-method is-config="true" signature="openURL()[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:36:52 EET" name="openURL" finished-at="2023-11-22T05:36:52 EET" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method is-config="true" signature="beforRegister()[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:36:52 EET" name="beforRegister" finished-at="2023-11-22T05:36:53 EET" duration-ms="1072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforRegister -->
+        <test-method is-config="true" signature="ScrollUpbeforStart()[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:36:53 EET" name="ScrollUpbeforStart" finished-at="2023-11-22T05:36:53 EET" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollUpbeforStart -->
+        <test-method signature="RegisterEmptyFirstName()[pri:1, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:36:53 EET" name="RegisterEmptyFirstName" finished-at="2023-11-22T05:36:54 EET" duration-ms="1321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterEmptyFirstName -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:36:54 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:36:54 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisterEmptyFirstName status=SUCCESS method=RegistrationTest.RegisterEmptyFirstName()[pri:1, instance:testCases.RegistrationTest@169bb4dd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method is-config="true" signature="ScrollUpbeforStart()[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:36:54 EET" name="ScrollUpbeforStart" finished-at="2023-11-22T05:36:54 EET" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollUpbeforStart -->
+        <test-method signature="RegisterMinFirstName()[pri:2, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:36:54 EET" name="RegisterMinFirstName" finished-at="2023-11-22T05:36:55 EET" duration-ms="1231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterMinFirstName -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:36:55 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:36:55 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisterMinFirstName status=SUCCESS method=RegistrationTest.RegisterMinFirstName()[pri:2, instance:testCases.RegistrationTest@169bb4dd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method is-config="true" signature="ScrollUpbeforStart()[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:36:55 EET" name="ScrollUpbeforStart" finished-at="2023-11-22T05:36:55 EET" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollUpbeforStart -->
+        <test-method signature="RegisterMaxFirstName()[pri:3, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:36:55 EET" name="RegisterMaxFirstName" finished-at="2023-11-22T05:36:57 EET" duration-ms="1453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterMaxFirstName -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:36:57 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:36:57 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisterMaxFirstName status=SUCCESS method=RegistrationTest.RegisterMaxFirstName()[pri:3, instance:testCases.RegistrationTest@169bb4dd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method is-config="true" signature="ScrollUpbeforStart()[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:36:57 EET" name="ScrollUpbeforStart" finished-at="2023-11-22T05:36:57 EET" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollUpbeforStart -->
+        <test-method signature="RegisterEmptyLastName()[pri:4, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:36:57 EET" name="RegisterEmptyLastName" finished-at="2023-11-22T05:36:58 EET" duration-ms="1193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterEmptyLastName -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:36:58 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:36:58 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisterEmptyLastName status=SUCCESS method=RegistrationTest.RegisterEmptyLastName()[pri:4, instance:testCases.RegistrationTest@169bb4dd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method is-config="true" signature="ScrollUpbeforStart()[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:36:58 EET" name="ScrollUpbeforStart" finished-at="2023-11-22T05:36:58 EET" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollUpbeforStart -->
+        <test-method signature="RegisterMinLastName()[pri:5, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:36:58 EET" name="RegisterMinLastName" finished-at="2023-11-22T05:36:59 EET" duration-ms="1196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterMinLastName -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:36:59 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:36:59 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisterMinLastName status=SUCCESS method=RegistrationTest.RegisterMinLastName()[pri:5, instance:testCases.RegistrationTest@169bb4dd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method is-config="true" signature="ScrollUpbeforStart()[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:36:59 EET" name="ScrollUpbeforStart" finished-at="2023-11-22T05:36:59 EET" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollUpbeforStart -->
+        <test-method signature="RegisterMaxLastName()[pri:6, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:36:59 EET" name="RegisterMaxLastName" finished-at="2023-11-22T05:37:01 EET" duration-ms="1293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterMaxLastName -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:37:01 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:37:01 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisterMaxLastName status=SUCCESS method=RegistrationTest.RegisterMaxLastName()[pri:6, instance:testCases.RegistrationTest@169bb4dd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method is-config="true" signature="ScrollUpbeforStart()[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:37:01 EET" name="ScrollUpbeforStart" finished-at="2023-11-22T05:37:01 EET" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollUpbeforStart -->
+        <test-method signature="RegisterEmptyEmail()[pri:7, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:37:01 EET" name="RegisterEmptyEmail" finished-at="2023-11-22T05:37:02 EET" duration-ms="1214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterEmptyEmail -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:37:02 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:37:02 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisterEmptyEmail status=SUCCESS method=RegistrationTest.RegisterEmptyEmail()[pri:7, instance:testCases.RegistrationTest@169bb4dd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method is-config="true" signature="ScrollUpbeforStart()[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:37:02 EET" name="ScrollUpbeforStart" finished-at="2023-11-22T05:37:02 EET" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollUpbeforStart -->
+        <test-method signature="RegisterValidEmail()[pri:8, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:37:02 EET" name="RegisterValidEmail" finished-at="2023-11-22T05:37:03 EET" duration-ms="1244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterValidEmail -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:37:03 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:37:03 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisterValidEmail status=SUCCESS method=RegistrationTest.RegisterValidEmail()[pri:8, instance:testCases.RegistrationTest@169bb4dd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method is-config="true" signature="ScrollUpbeforStart()[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:37:03 EET" name="ScrollUpbeforStart" finished-at="2023-11-22T05:37:03 EET" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollUpbeforStart -->
+        <test-method signature="RegisterEmailLreadyExist()[pri:9, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:37:03 EET" name="RegisterEmailLreadyExist" finished-at="2023-11-22T05:37:06 EET" duration-ms="2481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterEmailLreadyExist -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:37:06 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:37:06 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisterEmailLreadyExist status=SUCCESS method=RegistrationTest.RegisterEmailLreadyExist()[pri:9, instance:testCases.RegistrationTest@169bb4dd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method is-config="true" signature="ScrollUpbeforStart()[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:37:06 EET" name="ScrollUpbeforStart" finished-at="2023-11-22T05:37:06 EET" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollUpbeforStart -->
+        <test-method signature="RegisterEmptyPassword()[pri:10, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:37:06 EET" name="RegisterEmptyPassword" finished-at="2023-11-22T05:37:07 EET" duration-ms="1454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterEmptyPassword -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:37:07 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:37:07 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisterEmptyPassword status=SUCCESS method=RegistrationTest.RegisterEmptyPassword()[pri:10, instance:testCases.RegistrationTest@169bb4dd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method is-config="true" signature="ScrollUpbeforStart()[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:37:07 EET" name="ScrollUpbeforStart" finished-at="2023-11-22T05:37:07 EET" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollUpbeforStart -->
+        <test-method signature="RegisterMinLengthPassword()[pri:11, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:37:07 EET" name="RegisterMinLengthPassword" finished-at="2023-11-22T05:37:08 EET" duration-ms="1192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterMinLengthPassword -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:37:08 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:37:08 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisterMinLengthPassword status=SUCCESS method=RegistrationTest.RegisterMinLengthPassword()[pri:11, instance:testCases.RegistrationTest@169bb4dd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method is-config="true" signature="ScrollUpbeforStart()[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:37:08 EET" name="ScrollUpbeforStart" finished-at="2023-11-22T05:37:08 EET" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollUpbeforStart -->
+        <test-method signature="RegisterEmptyConfirmPassword()[pri:12, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:37:08 EET" name="RegisterEmptyConfirmPassword" finished-at="2023-11-22T05:37:09 EET" duration-ms="1154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterEmptyConfirmPassword -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:37:09 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:37:09 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisterEmptyConfirmPassword status=SUCCESS method=RegistrationTest.RegisterEmptyConfirmPassword()[pri:12, instance:testCases.RegistrationTest@169bb4dd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method is-config="true" signature="ScrollUpbeforStart()[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:37:09 EET" name="ScrollUpbeforStart" finished-at="2023-11-22T05:37:10 EET" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollUpbeforStart -->
+        <test-method signature="RegisterMatchConfirmPassword()[pri:13, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:37:10 EET" name="RegisterMatchConfirmPassword" finished-at="2023-11-22T05:37:11 EET" duration-ms="1235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterMatchConfirmPassword -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:37:11 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:37:11 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisterMatchConfirmPassword status=SUCCESS method=RegistrationTest.RegisterMatchConfirmPassword()[pri:13, instance:testCases.RegistrationTest@169bb4dd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method is-config="true" signature="ScrollUpbeforStart()[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:37:11 EET" name="ScrollUpbeforStart" finished-at="2023-11-22T05:37:11 EET" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollUpbeforStart -->
+        <test-method signature="RegisterHappyScinario()[pri:14, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:37:11 EET" name="RegisterHappyScinario" finished-at="2023-11-22T05:37:27 EET" duration-ms="16305" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='submit login']"}
+  (Session info: chrome=119.0.6045.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0cdca0b91bbc12b4051e2fea000bbe44, findElement {using=name, value=submit login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Shogaa\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58558}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58558/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0cdca0b91bbc12b4051e2fea000bbe44]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='submit login']"}
+  (Session info: chrome=119.0.6045.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0cdca0b91bbc12b4051e2fea000bbe44, findElement {using=name, value=submit login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Shogaa\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58558}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58558/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0cdca0b91bbc12b4051e2fea000bbe44
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy23.getText(Unknown Source)
+at testCases.TestBase.AssertElementContainText(TestBase.java:153)
+at testCases.RegistrationTest.RegisterHappyScinario(RegistrationTest.java:40)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterHappyScinario -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.RegistrationTest@169bb4dd]" started-at="2023-11-22T05:37:27 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:37:27 EET" duration-ms="348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisterHappyScinario status=FAILURE method=RegistrationTest.RegisterHappyScinario()[pri:14, instance:testCases.RegistrationTest@169bb4dd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+      </class> <!-- testCases.RegistrationTest -->
+      <class name="testCases.LoginTest">
+        <test-method is-config="true" signature="StartDriver(java.lang.String)[pri:0, instance:testCases.LoginTest@4dc27487]" started-at="2023-11-22T05:36:32 EET" name="StartDriver" finished-at="2023-11-22T05:36:37 EET" duration-ms="5454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method is-config="true" signature="openURL()[pri:0, instance:testCases.LoginTest@4dc27487]" started-at="2023-11-22T05:36:38 EET" name="openURL" finished-at="2023-11-22T05:36:38 EET" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method is-config="true" signature="beforlogin()[pri:0, instance:testCases.LoginTest@4dc27487]" started-at="2023-11-22T05:36:38 EET" name="beforlogin" finished-at="2023-11-22T05:36:43 EET" duration-ms="5645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforlogin -->
+        <test-method signature="LoginEmptyEmail()[pri:1, instance:testCases.LoginTest@4dc27487]" started-at="2023-11-22T05:36:43 EET" name="LoginEmptyEmail" finished-at="2023-11-22T05:36:44 EET" duration-ms="1103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginEmptyEmail -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.LoginTest@4dc27487]" started-at="2023-11-22T05:36:45 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:36:45 EET" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginEmptyEmail status=SUCCESS method=LoginTest.LoginEmptyEmail()[pri:1, instance:testCases.LoginTest@4dc27487] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="LoginValidEmail()[pri:2, instance:testCases.LoginTest@4dc27487]" started-at="2023-11-22T05:36:45 EET" name="LoginValidEmail" finished-at="2023-11-22T05:36:45 EET" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginValidEmail -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.LoginTest@4dc27487]" started-at="2023-11-22T05:36:45 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:36:45 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginValidEmail status=SUCCESS method=LoginTest.LoginValidEmail()[pri:2, instance:testCases.LoginTest@4dc27487] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="LoginEmptyPassword()[pri:3, instance:testCases.LoginTest@4dc27487]" started-at="2023-11-22T05:36:45 EET" name="LoginEmptyPassword" finished-at="2023-11-22T05:36:46 EET" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginEmptyPassword -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.LoginTest@4dc27487]" started-at="2023-11-22T05:36:46 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:36:46 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginEmptyPassword status=SUCCESS method=LoginTest.LoginEmptyPassword()[pri:3, instance:testCases.LoginTest@4dc27487] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="LoginMinLengthPassword()[pri:4, instance:testCases.LoginTest@4dc27487]" started-at="2023-11-22T05:36:46 EET" name="LoginMinLengthPassword" finished-at="2023-11-22T05:36:46 EET" duration-ms="547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginMinLengthPassword -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.LoginTest@4dc27487]" started-at="2023-11-22T05:36:46 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:36:46 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginMinLengthPassword status=SUCCESS method=LoginTest.LoginMinLengthPassword()[pri:4, instance:testCases.LoginTest@4dc27487] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="LoginWrongPassword()[pri:5, instance:testCases.LoginTest@4dc27487]" started-at="2023-11-22T05:36:46 EET" name="LoginWrongPassword" finished-at="2023-11-22T05:36:48 EET" duration-ms="1380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWrongPassword -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.LoginTest@4dc27487]" started-at="2023-11-22T05:36:48 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:36:48 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginWrongPassword status=SUCCESS method=LoginTest.LoginWrongPassword()[pri:5, instance:testCases.LoginTest@4dc27487] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="LoginWrongEmail()[pri:6, instance:testCases.LoginTest@4dc27487]" started-at="2023-11-22T05:36:48 EET" name="LoginWrongEmail" finished-at="2023-11-22T05:36:49 EET" duration-ms="1393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWrongEmail -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.LoginTest@4dc27487]" started-at="2023-11-22T05:36:49 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:36:49 EET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginWrongEmail status=SUCCESS method=LoginTest.LoginWrongEmail()[pri:6, instance:testCases.LoginTest@4dc27487] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="LoginHappyScienario()[pri:7, instance:testCases.LoginTest@4dc27487]" started-at="2023-11-22T05:36:49 EET" name="LoginHappyScienario" finished-at="2023-11-22T05:36:52 EET" duration-ms="2559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginHappyScienario -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.LoginTest@4dc27487]" started-at="2023-11-22T05:36:52 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:36:52 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginHappyScienario status=SUCCESS method=LoginTest.LoginHappyScienario()[pri:7, instance:testCases.LoginTest@4dc27487] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+      </class> <!-- testCases.LoginTest -->
+      <class name="testCases.CourseSearchTest">
+        <test-method is-config="true" signature="openURL()[pri:0, instance:testCases.CourseSearchTest@46d59067]" started-at="2023-11-22T05:37:51 EET" name="openURL" finished-at="2023-11-22T05:37:51 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method is-config="true" signature="BeforeHome()[pri:0, instance:testCases.CourseSearchTest@46d59067]" started-at="2023-11-22T05:37:51 EET" name="BeforeHome" finished-at="2023-11-22T05:37:54 EET" duration-ms="2623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeHome -->
+        <test-method signature="EmptyCourseNameError()[pri:1, instance:testCases.CourseSearchTest@46d59067]" started-at="2023-11-22T05:37:54 EET" name="EmptyCourseNameError" finished-at="2023-11-22T05:37:54 EET" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmptyCourseNameError -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.CourseSearchTest@46d59067]" started-at="2023-11-22T05:37:54 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:37:54 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EmptyCourseNameError status=SUCCESS method=CourseSearchTest.EmptyCourseNameError()[pri:1, instance:testCases.CourseSearchTest@46d59067] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="MinLengthCourseNameError()[pri:2, instance:testCases.CourseSearchTest@46d59067]" started-at="2023-11-22T05:37:54 EET" name="MinLengthCourseNameError" finished-at="2023-11-22T05:37:54 EET" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MinLengthCourseNameError -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.CourseSearchTest@46d59067]" started-at="2023-11-22T05:37:54 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:37:54 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MinLengthCourseNameError status=SUCCESS method=CourseSearchTest.MinLengthCourseNameError()[pri:2, instance:testCases.CourseSearchTest@46d59067] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="MaxLengthCourseNameError()[pri:3, instance:testCases.CourseSearchTest@46d59067]" started-at="2023-11-22T05:37:54 EET" name="MaxLengthCourseNameError" finished-at="2023-11-22T05:37:55 EET" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MaxLengthCourseNameError -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.CourseSearchTest@46d59067]" started-at="2023-11-22T05:37:55 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:37:55 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MaxLengthCourseNameError status=SUCCESS method=CourseSearchTest.MaxLengthCourseNameError()[pri:3, instance:testCases.CourseSearchTest@46d59067] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="NumbersOnlyCourseNameError()[pri:4, instance:testCases.CourseSearchTest@46d59067]" started-at="2023-11-22T05:37:55 EET" name="NumbersOnlyCourseNameError" finished-at="2023-11-22T05:37:55 EET" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NumbersOnlyCourseNameError -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.CourseSearchTest@46d59067]" started-at="2023-11-22T05:37:55 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:37:55 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NumbersOnlyCourseNameError status=SUCCESS method=CourseSearchTest.NumbersOnlyCourseNameError()[pri:4, instance:testCases.CourseSearchTest@46d59067] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="FirstCharNumberCourseNameError()[pri:5, instance:testCases.CourseSearchTest@46d59067]" started-at="2023-11-22T05:37:55 EET" name="FirstCharNumberCourseNameError" finished-at="2023-11-22T05:37:55 EET" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstCharNumberCourseNameError -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.CourseSearchTest@46d59067]" started-at="2023-11-22T05:37:55 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:37:55 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FirstCharNumberCourseNameError status=SUCCESS method=CourseSearchTest.FirstCharNumberCourseNameError()[pri:5, instance:testCases.CourseSearchTest@46d59067] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="SpecialCharNumberCourseNameError()[pri:6, instance:testCases.CourseSearchTest@46d59067]" started-at="2023-11-22T05:37:55 EET" name="SpecialCharNumberCourseNameError" finished-at="2023-11-22T05:37:56 EET" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SpecialCharNumberCourseNameError -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.CourseSearchTest@46d59067]" started-at="2023-11-22T05:37:56 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:37:56 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SpecialCharNumberCourseNameError status=SUCCESS method=CourseSearchTest.SpecialCharNumberCourseNameError()[pri:6, instance:testCases.CourseSearchTest@46d59067] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="SearchCourseHappyScienarioByCheckingOnSearchResultByText()[pri:7, instance:testCases.CourseSearchTest@46d59067]" started-at="2023-11-22T05:37:56 EET" name="SearchCourseHappyScienarioByCheckingOnSearchResultByText" finished-at="2023-11-22T05:38:03 EET" duration-ms="7447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchCourseHappyScienarioByCheckingOnSearchResultByText -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.CourseSearchTest@46d59067]" started-at="2023-11-22T05:38:03 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:38:03 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchCourseHappyScienarioByCheckingOnSearchResultByText status=SUCCESS method=CourseSearchTest.SearchCourseHappyScienarioByCheckingOnSearchResultByText()[pri:7, instance:testCases.CourseSearchTest@46d59067] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="SearchCourseHappyScienarioByCheckOnSearchResultByListCourseCardsIndex()[pri:8, instance:testCases.CourseSearchTest@46d59067]" started-at="2023-11-22T05:38:03 EET" name="SearchCourseHappyScienarioByCheckOnSearchResultByListCourseCardsIndex" finished-at="2023-11-22T05:38:35 EET" duration-ms="31738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchCourseHappyScienarioByCheckOnSearchResultByListCourseCardsIndex -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.CourseSearchTest@46d59067]" started-at="2023-11-22T05:38:35 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:38:35 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchCourseHappyScienarioByCheckOnSearchResultByListCourseCardsIndex status=SUCCESS method=CourseSearchTest.SearchCourseHappyScienarioByCheckOnSearchResultByListCourseCardsIndex()[pri:8, instance:testCases.CourseSearchTest@46d59067] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method is-config="true" signature="LogOutAfterClass()[pri:0, instance:testCases.CourseSearchTest@46d59067]" started-at="2023-11-22T05:38:35 EET" name="LogOutAfterClass" finished-at="2023-11-22T05:38:35 EET" duration-ms="490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutAfterClass -->
+      </class> <!-- testCases.CourseSearchTest -->
+      <class name="testCases.ForgetPasswordResetPasswordTest">
+        <test-method is-config="true" signature="openURL()[pri:0, instance:testCases.ForgetPasswordResetPasswordTest@5dafbe45]" started-at="2023-11-22T05:39:01 EET" name="openURL" finished-at="2023-11-22T05:39:01 EET" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method is-config="true" signature="BeforeForgetPassword()[pri:0, instance:testCases.ForgetPasswordResetPasswordTest@5dafbe45]" started-at="2023-11-22T05:39:01 EET" name="BeforeForgetPassword" finished-at="2023-11-22T05:39:04 EET" duration-ms="2780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeForgetPassword -->
+        <test-method signature="ForgetPasswordEmptyNewPassword()[pri:7, instance:testCases.ForgetPasswordResetPasswordTest@5dafbe45]" started-at="2023-11-22T05:39:04 EET" name="ForgetPasswordEmptyNewPassword" finished-at="2023-11-22T05:39:05 EET" duration-ms="1246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgetPasswordEmptyNewPassword -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.ForgetPasswordResetPasswordTest@5dafbe45]" started-at="2023-11-22T05:39:05 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:39:05 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForgetPasswordEmptyNewPassword status=SUCCESS method=ForgetPasswordResetPasswordTest.ForgetPasswordEmptyNewPassword()[pri:7, instance:testCases.ForgetPasswordResetPasswordTest@5dafbe45] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="ForgetPasswordMinLengthNewPassword()[pri:8, instance:testCases.ForgetPasswordResetPasswordTest@5dafbe45]" started-at="2023-11-22T05:39:05 EET" name="ForgetPasswordMinLengthNewPassword" finished-at="2023-11-22T05:39:06 EET" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgetPasswordMinLengthNewPassword -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.ForgetPasswordResetPasswordTest@5dafbe45]" started-at="2023-11-22T05:39:06 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:39:06 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForgetPasswordMinLengthNewPassword status=SUCCESS method=ForgetPasswordResetPasswordTest.ForgetPasswordMinLengthNewPassword()[pri:8, instance:testCases.ForgetPasswordResetPasswordTest@5dafbe45] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="ForgetPasswordEmptyConfirmNewPassword()[pri:9, instance:testCases.ForgetPasswordResetPasswordTest@5dafbe45]" started-at="2023-11-22T05:39:06 EET" name="ForgetPasswordEmptyConfirmNewPassword" finished-at="2023-11-22T05:39:06 EET" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgetPasswordEmptyConfirmNewPassword -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.ForgetPasswordResetPasswordTest@5dafbe45]" started-at="2023-11-22T05:39:06 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:39:06 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForgetPasswordEmptyConfirmNewPassword status=SUCCESS method=ForgetPasswordResetPasswordTest.ForgetPasswordEmptyConfirmNewPassword()[pri:9, instance:testCases.ForgetPasswordResetPasswordTest@5dafbe45] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="ForgetPasswordNotMatchConfirmNewPassword()[pri:10, instance:testCases.ForgetPasswordResetPasswordTest@5dafbe45]" started-at="2023-11-22T05:39:06 EET" name="ForgetPasswordNotMatchConfirmNewPassword" finished-at="2023-11-22T05:39:07 EET" duration-ms="1197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgetPasswordNotMatchConfirmNewPassword -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.ForgetPasswordResetPasswordTest@5dafbe45]" started-at="2023-11-22T05:39:07 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:39:07 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForgetPasswordNotMatchConfirmNewPassword status=SUCCESS method=ForgetPasswordResetPasswordTest.ForgetPasswordNotMatchConfirmNewPassword()[pri:10, instance:testCases.ForgetPasswordResetPasswordTest@5dafbe45] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+        <test-method signature="ForgetPasswordHappyScinario()[pri:11, instance:testCases.ForgetPasswordResetPasswordTest@5dafbe45]" started-at="2023-11-22T05:39:07 EET" name="ForgetPasswordHappyScinario" finished-at="2023-11-22T05:39:09 EET" duration-ms="1441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgetPasswordHappyScinario -->
+        <test-method is-config="true" signature="TakeScrrenShots(org.testng.ITestResult)[pri:0, instance:testCases.ForgetPasswordResetPasswordTest@5dafbe45]" started-at="2023-11-22T05:39:09 EET" name="TakeScrrenShots" finished-at="2023-11-22T05:39:09 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForgetPasswordHappyScinario status=SUCCESS method=ForgetPasswordResetPasswordTest.ForgetPasswordHappyScinario()[pri:11, instance:testCases.ForgetPasswordResetPasswordTest@5dafbe45] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScrrenShots -->
+      </class> <!-- testCases.ForgetPasswordResetPasswordTest -->
+    </test> <!-- System Test -->
+  </suite> <!-- Knowledgy -->
+</testng-results>

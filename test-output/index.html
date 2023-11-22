@@ -1,0 +1,2018 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Knowledgy" class="navigator-link">
+              <span class="suite-name border-failed">Knowledgy</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Knowledgy" class="navigator-link ">
+                    <span>C:\Users\Shogaa\eclipse-workspace\PageOpjectModel\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Knowledgy" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Knowledgy" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Knowledgy" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Knowledgy" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Knowledgy" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Knowledgy" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">59 methods, 1 failed,   58 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Knowledgy" class="hide-methods failed suite-Knowledgy"> (hide)</a> <!-- hide-methods failed suite-Knowledgy -->
+                      <a href="#" panel-name="suite-Knowledgy" class="show-methods failed suite-Knowledgy"> (show)</a> <!-- show-methods failed suite-Knowledgy -->
+                    </span>
+                    <div class="method-list-content failed suite-Knowledgy">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.RegistrationTest" class="method navigator-link" hash-for-method="RegisterHappyScinario">RegisterHappyScinario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Knowledgy -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Knowledgy" class="hide-methods passed suite-Knowledgy"> (hide)</a> <!-- hide-methods passed suite-Knowledgy -->
+                      <a href="#" panel-name="suite-Knowledgy" class="show-methods passed suite-Knowledgy"> (show)</a> <!-- show-methods passed suite-Knowledgy -->
+                    </span>
+                    <div class="method-list-content passed suite-Knowledgy">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.ChangePasswordTest" class="method navigator-link" hash-for-method="ChangePasswordConfirmNewPasswordEmptyError">ChangePasswordConfirmNewPasswordEmptyError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.ChangePasswordTest" class="method navigator-link" hash-for-method="ChangePasswordConfirmNewPasswordMinLengthError">ChangePasswordConfirmNewPasswordMinLengthError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.ChangePasswordTest" class="method navigator-link" hash-for-method="ChangePasswordConfirmNewPasswordNotMatchError">ChangePasswordConfirmNewPasswordNotMatchError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.ChangePasswordTest" class="method navigator-link" hash-for-method="ChangePasswordCurrentPasswordSameNewPassword">ChangePasswordCurrentPasswordSameNewPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.ChangePasswordTest" class="method navigator-link" hash-for-method="ChangePasswordHappyScienario">ChangePasswordHappyScienario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.ChangePasswordTest" class="method navigator-link" hash-for-method="ChangePasswordNewPasswordEmptyError">ChangePasswordNewPasswordEmptyError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.ChangePasswordTest" class="method navigator-link" hash-for-method="ChangePasswordNewPasswordMinLengthError">ChangePasswordNewPasswordMinLengthError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.ChangePasswordTest" class="method navigator-link" hash-for-method="ChangePasswordOldPasswordEmptyError">ChangePasswordOldPasswordEmptyError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.ChangePasswordTest" class="method navigator-link" hash-for-method="ChangePasswordOldPasswordMinLengthError">ChangePasswordOldPasswordMinLengthError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.ChangePasswordTest" class="method navigator-link" hash-for-method="ChangePasswordOldPasswordNotMatchError">ChangePasswordOldPasswordNotMatchError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.MyAccountTest" class="method navigator-link" hash-for-method="EditProfileFirstNameMaxLength">EditProfileFirstNameMaxLength</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.MyAccountTest" class="method navigator-link" hash-for-method="EditProfileFirstNameMinLength">EditProfileFirstNameMinLength</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.MyAccountTest" class="method navigator-link" hash-for-method="EditProfileHappyScienario">EditProfileHappyScienario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.MyAccountTest" class="method navigator-link" hash-for-method="EditProfileLastNameMaxLength">EditProfileLastNameMaxLength</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.MyAccountTest" class="method navigator-link" hash-for-method="EditProfileLastNameMinLength">EditProfileLastNameMinLength</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.MyAccountTest" class="method navigator-link" hash-for-method="EditProfileLeaveFirstNameEmpty">EditProfileLeaveFirstNameEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.MyAccountTest" class="method navigator-link" hash-for-method="EditProfileLeavelastNameEmpty">EditProfileLeavelastNameEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.CourseSearchTest" class="method navigator-link" hash-for-method="EmptyCourseNameError">EmptyCourseNameError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.CourseSearchTest" class="method navigator-link" hash-for-method="FirstCharNumberCourseNameError">FirstCharNumberCourseNameError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.ForgetPasswordResetPasswordTest" class="method navigator-link" hash-for-method="ForgetPasswordEmptyConfirmNewPassword">ForgetPasswordEmptyConfirmNewPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.ForgetPasswordEmailTest" class="method navigator-link" hash-for-method="ForgetPasswordEmptyEmial">ForgetPasswordEmptyEmial</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.ForgetPasswordResetPasswordTest" class="method navigator-link" hash-for-method="ForgetPasswordEmptyNewPassword">ForgetPasswordEmptyNewPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.ForgetPasswordOTPTest" class="method navigator-link" hash-for-method="ForgetPasswordEmptyOTPCode">ForgetPasswordEmptyOTPCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.ForgetPasswordOTPTest" class="method navigator-link" hash-for-method="ForgetPasswordHappyScinario">ForgetPasswordHappyScinario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.ForgetPasswordResetPasswordTest" class="method navigator-link" hash-for-method="ForgetPasswordHappyScinario">ForgetPasswordHappyScinario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.ForgetPasswordEmailTest" class="method navigator-link" hash-for-method="ForgetPasswordHappyScinario">ForgetPasswordHappyScinario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.ForgetPasswordResetPasswordTest" class="method navigator-link" hash-for-method="ForgetPasswordMinLengthNewPassword">ForgetPasswordMinLengthNewPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.ForgetPasswordResetPasswordTest" class="method navigator-link" hash-for-method="ForgetPasswordNotMatchConfirmNewPassword">ForgetPasswordNotMatchConfirmNewPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.ForgetPasswordEmailTest" class="method navigator-link" hash-for-method="ForgetPasswordNotRegisteredEmial">ForgetPasswordNotRegisteredEmial</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.ForgetPasswordEmailTest" class="method navigator-link" hash-for-method="ForgetPasswordNotValidEmial">ForgetPasswordNotValidEmial</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.ForgetPasswordOTPTest" class="method navigator-link" hash-for-method="ForgetPasswordNotValidOTPCode">ForgetPasswordNotValidOTPCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.ForgetPasswordOTPTest" class="method navigator-link" hash-for-method="ForgetPasswordWrongOTPCode">ForgetPasswordWrongOTPCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.LoginTest" class="method navigator-link" hash-for-method="LoginEmptyEmail">LoginEmptyEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.LoginTest" class="method navigator-link" hash-for-method="LoginEmptyPassword">LoginEmptyPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.LoginTest" class="method navigator-link" hash-for-method="LoginHappyScienario">LoginHappyScienario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.LoginTest" class="method navigator-link" hash-for-method="LoginMinLengthPassword">LoginMinLengthPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.LoginTest" class="method navigator-link" hash-for-method="LoginValidEmail">LoginValidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.LoginTest" class="method navigator-link" hash-for-method="LoginWrongEmail">LoginWrongEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.LoginTest" class="method navigator-link" hash-for-method="LoginWrongPassword">LoginWrongPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.CourseSearchTest" class="method navigator-link" hash-for-method="MaxLengthCourseNameError">MaxLengthCourseNameError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.CourseSearchTest" class="method navigator-link" hash-for-method="MinLengthCourseNameError">MinLengthCourseNameError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.CourseSearchTest" class="method navigator-link" hash-for-method="NumbersOnlyCourseNameError">NumbersOnlyCourseNameError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.RegistrationTest" class="method navigator-link" hash-for-method="RegisterEmailLreadyExist">RegisterEmailLreadyExist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.RegistrationTest" class="method navigator-link" hash-for-method="RegisterEmptyConfirmPassword">RegisterEmptyConfirmPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.RegistrationTest" class="method navigator-link" hash-for-method="RegisterEmptyEmail">RegisterEmptyEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.RegistrationTest" class="method navigator-link" hash-for-method="RegisterEmptyFirstName">RegisterEmptyFirstName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.RegistrationTest" class="method navigator-link" hash-for-method="RegisterEmptyLastName">RegisterEmptyLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.RegistrationTest" class="method navigator-link" hash-for-method="RegisterEmptyPassword">RegisterEmptyPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.RegistrationTest" class="method navigator-link" hash-for-method="RegisterMatchConfirmPassword">RegisterMatchConfirmPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.RegistrationTest" class="method navigator-link" hash-for-method="RegisterMaxFirstName">RegisterMaxFirstName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.RegistrationTest" class="method navigator-link" hash-for-method="RegisterMaxLastName">RegisterMaxLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.RegistrationTest" class="method navigator-link" hash-for-method="RegisterMinFirstName">RegisterMinFirstName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.RegistrationTest" class="method navigator-link" hash-for-method="RegisterMinLastName">RegisterMinLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.RegistrationTest" class="method navigator-link" hash-for-method="RegisterMinLengthPassword">RegisterMinLengthPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.RegistrationTest" class="method navigator-link" hash-for-method="RegisterValidEmail">RegisterValidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.CourseSearchTest" class="method navigator-link" hash-for-method="SearchCourseHappyScienarioByCheckOnSearchResultByListCourseCardsIndex">SearchCourseHappyScienarioByCheckOnSearchResultByListCourseCardsIndex</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.CourseSearchTest" class="method navigator-link" hash-for-method="SearchCourseHappyScienarioByCheckingOnSearchResultByText">SearchCourseHappyScienarioByCheckingOnSearchResultByText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Knowledgy" title="testCases.CourseSearchTest" class="method navigator-link" hash-for-method="SpecialCharNumberCourseNameError">SpecialCharNumberCourseNameError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Knowledgy -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Knowledgy" class="panel Knowledgy">
+          <div class="suite-Knowledgy-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.RegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterHappyScinario">
+                  </a> <!-- RegisterHappyScinario -->
+                  <span class="method-name">RegisterHappyScinario</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;submit login&apos;]&quot;}
+  (Session info: chrome=119.0.6045.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0cdca0b91bbc12b4051e2fea000bbe44, findElement {using=name, value=submit login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Shogaa\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58558}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58558/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0cdca0b91bbc12b4051e2fea000bbe44
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.getText(Unknown Source)
+	at testCases.TestBase.AssertElementContainText(TestBase.java:153)
+	at testCases.RegistrationTest.RegisterHappyScinario(RegistrationTest.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Knowledgy-class-failed -->
+          <div class="suite-Knowledgy-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginEmptyEmail">
+                  </a> <!-- LoginEmptyEmail -->
+                  <span class="method-name">LoginEmptyEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginEmptyPassword">
+                  </a> <!-- LoginEmptyPassword -->
+                  <span class="method-name">LoginEmptyPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginHappyScienario">
+                  </a> <!-- LoginHappyScienario -->
+                  <span class="method-name">LoginHappyScienario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginMinLengthPassword">
+                  </a> <!-- LoginMinLengthPassword -->
+                  <span class="method-name">LoginMinLengthPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginValidEmail">
+                  </a> <!-- LoginValidEmail -->
+                  <span class="method-name">LoginValidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWrongEmail">
+                  </a> <!-- LoginWrongEmail -->
+                  <span class="method-name">LoginWrongEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWrongPassword">
+                  </a> <!-- LoginWrongPassword -->
+                  <span class="method-name">LoginWrongPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Knowledgy-class-passed -->
+          <div class="suite-Knowledgy-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.ForgetPasswordOTPTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForgetPasswordEmptyOTPCode">
+                  </a> <!-- ForgetPasswordEmptyOTPCode -->
+                  <span class="method-name">ForgetPasswordEmptyOTPCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForgetPasswordHappyScinario">
+                  </a> <!-- ForgetPasswordHappyScinario -->
+                  <span class="method-name">ForgetPasswordHappyScinario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForgetPasswordNotValidOTPCode">
+                  </a> <!-- ForgetPasswordNotValidOTPCode -->
+                  <span class="method-name">ForgetPasswordNotValidOTPCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForgetPasswordWrongOTPCode">
+                  </a> <!-- ForgetPasswordWrongOTPCode -->
+                  <span class="method-name">ForgetPasswordWrongOTPCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Knowledgy-class-passed -->
+          <div class="suite-Knowledgy-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.MyAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditProfileFirstNameMaxLength">
+                  </a> <!-- EditProfileFirstNameMaxLength -->
+                  <span class="method-name">EditProfileFirstNameMaxLength</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditProfileFirstNameMinLength">
+                  </a> <!-- EditProfileFirstNameMinLength -->
+                  <span class="method-name">EditProfileFirstNameMinLength</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditProfileHappyScienario">
+                  </a> <!-- EditProfileHappyScienario -->
+                  <span class="method-name">EditProfileHappyScienario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditProfileLastNameMaxLength">
+                  </a> <!-- EditProfileLastNameMaxLength -->
+                  <span class="method-name">EditProfileLastNameMaxLength</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditProfileLastNameMinLength">
+                  </a> <!-- EditProfileLastNameMinLength -->
+                  <span class="method-name">EditProfileLastNameMinLength</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditProfileLeaveFirstNameEmpty">
+                  </a> <!-- EditProfileLeaveFirstNameEmpty -->
+                  <span class="method-name">EditProfileLeaveFirstNameEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditProfileLeavelastNameEmpty">
+                  </a> <!-- EditProfileLeavelastNameEmpty -->
+                  <span class="method-name">EditProfileLeavelastNameEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Knowledgy-class-passed -->
+          <div class="suite-Knowledgy-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.RegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterEmailLreadyExist">
+                  </a> <!-- RegisterEmailLreadyExist -->
+                  <span class="method-name">RegisterEmailLreadyExist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterEmptyConfirmPassword">
+                  </a> <!-- RegisterEmptyConfirmPassword -->
+                  <span class="method-name">RegisterEmptyConfirmPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterEmptyEmail">
+                  </a> <!-- RegisterEmptyEmail -->
+                  <span class="method-name">RegisterEmptyEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterEmptyFirstName">
+                  </a> <!-- RegisterEmptyFirstName -->
+                  <span class="method-name">RegisterEmptyFirstName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterEmptyLastName">
+                  </a> <!-- RegisterEmptyLastName -->
+                  <span class="method-name">RegisterEmptyLastName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterEmptyPassword">
+                  </a> <!-- RegisterEmptyPassword -->
+                  <span class="method-name">RegisterEmptyPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterMatchConfirmPassword">
+                  </a> <!-- RegisterMatchConfirmPassword -->
+                  <span class="method-name">RegisterMatchConfirmPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterMaxFirstName">
+                  </a> <!-- RegisterMaxFirstName -->
+                  <span class="method-name">RegisterMaxFirstName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterMaxLastName">
+                  </a> <!-- RegisterMaxLastName -->
+                  <span class="method-name">RegisterMaxLastName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterMinFirstName">
+                  </a> <!-- RegisterMinFirstName -->
+                  <span class="method-name">RegisterMinFirstName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterMinLastName">
+                  </a> <!-- RegisterMinLastName -->
+                  <span class="method-name">RegisterMinLastName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterMinLengthPassword">
+                  </a> <!-- RegisterMinLengthPassword -->
+                  <span class="method-name">RegisterMinLengthPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterValidEmail">
+                  </a> <!-- RegisterValidEmail -->
+                  <span class="method-name">RegisterValidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Knowledgy-class-passed -->
+          <div class="suite-Knowledgy-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.ForgetPasswordResetPasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForgetPasswordEmptyConfirmNewPassword">
+                  </a> <!-- ForgetPasswordEmptyConfirmNewPassword -->
+                  <span class="method-name">ForgetPasswordEmptyConfirmNewPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForgetPasswordEmptyNewPassword">
+                  </a> <!-- ForgetPasswordEmptyNewPassword -->
+                  <span class="method-name">ForgetPasswordEmptyNewPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForgetPasswordHappyScinario">
+                  </a> <!-- ForgetPasswordHappyScinario -->
+                  <span class="method-name">ForgetPasswordHappyScinario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForgetPasswordMinLengthNewPassword">
+                  </a> <!-- ForgetPasswordMinLengthNewPassword -->
+                  <span class="method-name">ForgetPasswordMinLengthNewPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForgetPasswordNotMatchConfirmNewPassword">
+                  </a> <!-- ForgetPasswordNotMatchConfirmNewPassword -->
+                  <span class="method-name">ForgetPasswordNotMatchConfirmNewPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Knowledgy-class-passed -->
+          <div class="suite-Knowledgy-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.ForgetPasswordEmailTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForgetPasswordEmptyEmial">
+                  </a> <!-- ForgetPasswordEmptyEmial -->
+                  <span class="method-name">ForgetPasswordEmptyEmial</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForgetPasswordHappyScinario">
+                  </a> <!-- ForgetPasswordHappyScinario -->
+                  <span class="method-name">ForgetPasswordHappyScinario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForgetPasswordNotRegisteredEmial">
+                  </a> <!-- ForgetPasswordNotRegisteredEmial -->
+                  <span class="method-name">ForgetPasswordNotRegisteredEmial</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForgetPasswordNotValidEmial">
+                  </a> <!-- ForgetPasswordNotValidEmial -->
+                  <span class="method-name">ForgetPasswordNotValidEmial</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Knowledgy-class-passed -->
+          <div class="suite-Knowledgy-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.ChangePasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ChangePasswordConfirmNewPasswordEmptyError">
+                  </a> <!-- ChangePasswordConfirmNewPasswordEmptyError -->
+                  <span class="method-name">ChangePasswordConfirmNewPasswordEmptyError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ChangePasswordConfirmNewPasswordMinLengthError">
+                  </a> <!-- ChangePasswordConfirmNewPasswordMinLengthError -->
+                  <span class="method-name">ChangePasswordConfirmNewPasswordMinLengthError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ChangePasswordConfirmNewPasswordNotMatchError">
+                  </a> <!-- ChangePasswordConfirmNewPasswordNotMatchError -->
+                  <span class="method-name">ChangePasswordConfirmNewPasswordNotMatchError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ChangePasswordCurrentPasswordSameNewPassword">
+                  </a> <!-- ChangePasswordCurrentPasswordSameNewPassword -->
+                  <span class="method-name">ChangePasswordCurrentPasswordSameNewPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ChangePasswordHappyScienario">
+                  </a> <!-- ChangePasswordHappyScienario -->
+                  <span class="method-name">ChangePasswordHappyScienario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ChangePasswordNewPasswordEmptyError">
+                  </a> <!-- ChangePasswordNewPasswordEmptyError -->
+                  <span class="method-name">ChangePasswordNewPasswordEmptyError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ChangePasswordNewPasswordMinLengthError">
+                  </a> <!-- ChangePasswordNewPasswordMinLengthError -->
+                  <span class="method-name">ChangePasswordNewPasswordMinLengthError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ChangePasswordOldPasswordEmptyError">
+                  </a> <!-- ChangePasswordOldPasswordEmptyError -->
+                  <span class="method-name">ChangePasswordOldPasswordEmptyError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ChangePasswordOldPasswordMinLengthError">
+                  </a> <!-- ChangePasswordOldPasswordMinLengthError -->
+                  <span class="method-name">ChangePasswordOldPasswordMinLengthError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ChangePasswordOldPasswordNotMatchError">
+                  </a> <!-- ChangePasswordOldPasswordNotMatchError -->
+                  <span class="method-name">ChangePasswordOldPasswordNotMatchError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Knowledgy-class-passed -->
+          <div class="suite-Knowledgy-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.CourseSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmptyCourseNameError">
+                  </a> <!-- EmptyCourseNameError -->
+                  <span class="method-name">EmptyCourseNameError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FirstCharNumberCourseNameError">
+                  </a> <!-- FirstCharNumberCourseNameError -->
+                  <span class="method-name">FirstCharNumberCourseNameError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MaxLengthCourseNameError">
+                  </a> <!-- MaxLengthCourseNameError -->
+                  <span class="method-name">MaxLengthCourseNameError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MinLengthCourseNameError">
+                  </a> <!-- MinLengthCourseNameError -->
+                  <span class="method-name">MinLengthCourseNameError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NumbersOnlyCourseNameError">
+                  </a> <!-- NumbersOnlyCourseNameError -->
+                  <span class="method-name">NumbersOnlyCourseNameError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchCourseHappyScienarioByCheckOnSearchResultByListCourseCardsIndex">
+                  </a> <!-- SearchCourseHappyScienarioByCheckOnSearchResultByListCourseCardsIndex -->
+                  <span class="method-name">SearchCourseHappyScienarioByCheckOnSearchResultByListCourseCardsIndex</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchCourseHappyScienarioByCheckingOnSearchResultByText">
+                  </a> <!-- SearchCourseHappyScienarioByCheckingOnSearchResultByText -->
+                  <span class="method-name">SearchCourseHappyScienarioByCheckingOnSearchResultByText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SpecialCharNumberCourseNameError">
+                  </a> <!-- SpecialCharNumberCourseNameError -->
+                  <span class="method-name">SpecialCharNumberCourseNameError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Knowledgy-class-passed -->
+        </div> <!-- panel Knowledgy -->
+        <div panel-name="test-xml-Knowledgy" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Shogaa\eclipse-workspace\PageOpjectModel\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Knowledgy&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;System Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.LoginTest&quot;/&gt;
+      &lt;class name=&quot;testCases.RegistrationTest&quot;/&gt;
+      &lt;class name=&quot;testCases.MyAccountTest&quot;/&gt;
+      &lt;class name=&quot;testCases.CourseSearchTest&quot;/&gt;
+      &lt;class name=&quot;testCases.ChangePasswordTest&quot;/&gt;
+      &lt;class name=&quot;testCases.ForgetPasswordEmailTest&quot;/&gt;
+      &lt;class name=&quot;testCases.ForgetPasswordOTPTest&quot;/&gt;
+      &lt;class name=&quot;testCases.ForgetPasswordResetPasswordTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- System Test --&gt;
+&lt;/suite&gt; &lt;!-- Knowledgy --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Knowledgy" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Knowledgy</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">System Test (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Knowledgy" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Knowledgy</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Knowledgy" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Knowledgy</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Knowledgy');
+function tableData_Knowledgy() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(59);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'SearchCourseHappyScienarioByCheckOnSearchResultByListCourseCardsIndex')
+data.setCell(0, 2, 'testCases.CourseSearchTest')
+data.setCell(0, 3, 31738);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'RegisterHappyScinario')
+data.setCell(1, 2, 'testCases.RegistrationTest')
+data.setCell(1, 3, 16305);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'SearchCourseHappyScienarioByCheckingOnSearchResultByText')
+data.setCell(2, 2, 'testCases.CourseSearchTest')
+data.setCell(2, 3, 7447);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'LoginHappyScienario')
+data.setCell(3, 2, 'testCases.LoginTest')
+data.setCell(3, 3, 2559);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'RegisterEmailLreadyExist')
+data.setCell(4, 2, 'testCases.RegistrationTest')
+data.setCell(4, 3, 2481);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ChangePasswordCurrentPasswordSameNewPassword')
+data.setCell(5, 2, 'testCases.ChangePasswordTest')
+data.setCell(5, 3, 2027);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ChangePasswordHappyScienario')
+data.setCell(6, 2, 'testCases.ChangePasswordTest')
+data.setCell(6, 3, 1920);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ForgetPasswordHappyScinario')
+data.setCell(7, 2, 'testCases.ForgetPasswordEmailTest')
+data.setCell(7, 3, 1805);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ForgetPasswordEmptyOTPCode')
+data.setCell(8, 2, 'testCases.ForgetPasswordOTPTest')
+data.setCell(8, 3, 1790);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ChangePasswordOldPasswordNotMatchError')
+data.setCell(9, 2, 'testCases.ChangePasswordTest')
+data.setCell(9, 3, 1739);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'RegisterEmptyPassword')
+data.setCell(10, 2, 'testCases.RegistrationTest')
+data.setCell(10, 3, 1454);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'RegisterMaxFirstName')
+data.setCell(11, 2, 'testCases.RegistrationTest')
+data.setCell(11, 3, 1453);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'ForgetPasswordHappyScinario')
+data.setCell(12, 2, 'testCases.ForgetPasswordResetPasswordTest')
+data.setCell(12, 3, 1441);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'LoginWrongEmail')
+data.setCell(13, 2, 'testCases.LoginTest')
+data.setCell(13, 3, 1393);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'LoginWrongPassword')
+data.setCell(14, 2, 'testCases.LoginTest')
+data.setCell(14, 3, 1380);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'RegisterEmptyFirstName')
+data.setCell(15, 2, 'testCases.RegistrationTest')
+data.setCell(15, 3, 1321);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'RegisterMaxLastName')
+data.setCell(16, 2, 'testCases.RegistrationTest')
+data.setCell(16, 3, 1293);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'ForgetPasswordWrongOTPCode')
+data.setCell(17, 2, 'testCases.ForgetPasswordOTPTest')
+data.setCell(17, 3, 1260);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'ForgetPasswordHappyScinario')
+data.setCell(18, 2, 'testCases.ForgetPasswordOTPTest')
+data.setCell(18, 3, 1249);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'ForgetPasswordEmptyNewPassword')
+data.setCell(19, 2, 'testCases.ForgetPasswordResetPasswordTest')
+data.setCell(19, 3, 1246);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'RegisterValidEmail')
+data.setCell(20, 2, 'testCases.RegistrationTest')
+data.setCell(20, 3, 1244);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'RegisterMatchConfirmPassword')
+data.setCell(21, 2, 'testCases.RegistrationTest')
+data.setCell(21, 3, 1235);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'RegisterMinFirstName')
+data.setCell(22, 2, 'testCases.RegistrationTest')
+data.setCell(22, 3, 1231);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'RegisterEmptyEmail')
+data.setCell(23, 2, 'testCases.RegistrationTest')
+data.setCell(23, 3, 1214);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'EditProfileFirstNameMinLength')
+data.setCell(24, 2, 'testCases.MyAccountTest')
+data.setCell(24, 3, 1210);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'ForgetPasswordNotMatchConfirmNewPassword')
+data.setCell(25, 2, 'testCases.ForgetPasswordResetPasswordTest')
+data.setCell(25, 3, 1197);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'RegisterMinLastName')
+data.setCell(26, 2, 'testCases.RegistrationTest')
+data.setCell(26, 3, 1196);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'RegisterEmptyLastName')
+data.setCell(27, 2, 'testCases.RegistrationTest')
+data.setCell(27, 3, 1193);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'RegisterMinLengthPassword')
+data.setCell(28, 2, 'testCases.RegistrationTest')
+data.setCell(28, 3, 1192);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'RegisterEmptyConfirmPassword')
+data.setCell(29, 2, 'testCases.RegistrationTest')
+data.setCell(29, 3, 1154);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'LoginEmptyEmail')
+data.setCell(30, 2, 'testCases.LoginTest')
+data.setCell(30, 3, 1103);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'EditProfileFirstNameMaxLength')
+data.setCell(31, 2, 'testCases.MyAccountTest')
+data.setCell(31, 3, 1049);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'ForgetPasswordNotRegisteredEmial')
+data.setCell(32, 2, 'testCases.ForgetPasswordEmailTest')
+data.setCell(32, 3, 1026);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'ChangePasswordNewPasswordEmptyError')
+data.setCell(33, 2, 'testCases.ChangePasswordTest')
+data.setCell(33, 3, 956);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'ChangePasswordOldPasswordEmptyError')
+data.setCell(34, 2, 'testCases.ChangePasswordTest')
+data.setCell(34, 3, 887);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'ChangePasswordNewPasswordMinLengthError')
+data.setCell(35, 2, 'testCases.ChangePasswordTest')
+data.setCell(35, 3, 812);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'EditProfileLastNameMaxLength')
+data.setCell(36, 2, 'testCases.MyAccountTest')
+data.setCell(36, 3, 800);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'ChangePasswordConfirmNewPasswordNotMatchError')
+data.setCell(37, 2, 'testCases.ChangePasswordTest')
+data.setCell(37, 3, 787);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'ChangePasswordConfirmNewPasswordMinLengthError')
+data.setCell(38, 2, 'testCases.ChangePasswordTest')
+data.setCell(38, 3, 760);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'EditProfileHappyScienario')
+data.setCell(39, 2, 'testCases.MyAccountTest')
+data.setCell(39, 3, 745);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'ChangePasswordOldPasswordMinLengthError')
+data.setCell(40, 2, 'testCases.ChangePasswordTest')
+data.setCell(40, 3, 744);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'EditProfileLeaveFirstNameEmpty')
+data.setCell(41, 2, 'testCases.MyAccountTest')
+data.setCell(41, 3, 739);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'ChangePasswordConfirmNewPasswordEmptyError')
+data.setCell(42, 2, 'testCases.ChangePasswordTest')
+data.setCell(42, 3, 731);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'EditProfileLastNameMinLength')
+data.setCell(43, 2, 'testCases.MyAccountTest')
+data.setCell(43, 3, 700);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'EditProfileLeavelastNameEmpty')
+data.setCell(44, 2, 'testCases.MyAccountTest')
+data.setCell(44, 3, 624);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'LoginValidEmail')
+data.setCell(45, 2, 'testCases.LoginTest')
+data.setCell(45, 3, 569);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'LoginEmptyPassword')
+data.setCell(46, 2, 'testCases.LoginTest')
+data.setCell(46, 3, 559);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'LoginMinLengthPassword')
+data.setCell(47, 2, 'testCases.LoginTest')
+data.setCell(47, 3, 547);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'ForgetPasswordNotValidOTPCode')
+data.setCell(48, 2, 'testCases.ForgetPasswordOTPTest')
+data.setCell(48, 3, 499);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'ForgetPasswordMinLengthNewPassword')
+data.setCell(49, 2, 'testCases.ForgetPasswordResetPasswordTest')
+data.setCell(49, 3, 481);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'ForgetPasswordEmptyConfirmNewPassword')
+data.setCell(50, 2, 'testCases.ForgetPasswordResetPasswordTest')
+data.setCell(50, 3, 452);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'MaxLengthCourseNameError')
+data.setCell(51, 2, 'testCases.CourseSearchTest')
+data.setCell(51, 3, 430);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'ForgetPasswordNotValidEmial')
+data.setCell(52, 2, 'testCases.ForgetPasswordEmailTest')
+data.setCell(52, 3, 353);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'ForgetPasswordEmptyEmial')
+data.setCell(53, 2, 'testCases.ForgetPasswordEmailTest')
+data.setCell(53, 3, 322);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'FirstCharNumberCourseNameError')
+data.setCell(54, 2, 'testCases.CourseSearchTest')
+data.setCell(54, 3, 289);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'EmptyCourseNameError')
+data.setCell(55, 2, 'testCases.CourseSearchTest')
+data.setCell(55, 3, 267);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'SpecialCharNumberCourseNameError')
+data.setCell(56, 2, 'testCases.CourseSearchTest')
+data.setCell(56, 3, 259);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'NumbersOnlyCourseNameError')
+data.setCell(57, 2, 'testCases.CourseSearchTest')
+data.setCell(57, 3, 246);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'MinLengthCourseNameError')
+data.setCell(58, 2, 'testCases.CourseSearchTest')
+data.setCell(58, 3, 240);
+window.suiteTableData['Knowledgy']= { tableData: data, tableDiv: 'times-div-Knowledgy'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Knowledgy">
+              </div> <!-- times-div-Knowledgy -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Knowledgy" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Knowledgy</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Knowledgy" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">14 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.ForgetPasswordOTPTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">StartDriver</span>
+                <br/>
+                <span class="ignored-method-name">StopDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.MyAccountTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">StartDriver</span>
+                <br/>
+                <span class="ignored-method-name">StopDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.RegistrationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">StartDriver</span>
+                <br/>
+                <span class="ignored-method-name">StopDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.ForgetPasswordResetPasswordTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">StartDriver</span>
+                <br/>
+                <span class="ignored-method-name">StopDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.ForgetPasswordEmailTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">StartDriver</span>
+                <br/>
+                <span class="ignored-method-name">StopDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.ChangePasswordTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">StartDriver</span>
+                <br/>
+                <span class="ignored-method-name">StopDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.CourseSearchTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">StartDriver</span>
+                <br/>
+                <span class="ignored-method-name">StopDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Knowledgy" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">StartDriver(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">openURL</span>
+                <span class="method-start">5587 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforlogin</span>
+                <span class="method-start">5600 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">LoginEmptyEmail</span>
+                <span class="method-start">11261 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=LoginEmptyEmail status=SUCCESS method=LoginTest.LoginEmptyEmail()[pri:1, instance:t...)</span>
+                <span class="method-start">12524 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginValidEmail</span>
+                <span class="method-start">12558 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=LoginValidEmail status=SUCCESS method=LoginTest.LoginValidEmail()[pri:2, instance:t...)</span>
+                <span class="method-start">13132 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginEmptyPassword</span>
+                <span class="method-start">13137 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=LoginEmptyPassword status=SUCCESS method=LoginTest.LoginEmptyPassword()[pri:3, inst...)</span>
+                <span class="method-start">13700 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginMinLengthPassword</span>
+                <span class="method-start">13707 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=LoginMinLengthPassword status=SUCCESS method=LoginTest.LoginMinLengthPassword()[pri...)</span>
+                <span class="method-start">14262 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginWrongPassword</span>
+                <span class="method-start">14267 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=LoginWrongPassword status=SUCCESS method=LoginTest.LoginWrongPassword()[pri:5, inst...)</span>
+                <span class="method-start">15654 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginWrongEmail</span>
+                <span class="method-start">15660 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=LoginWrongEmail status=SUCCESS method=LoginTest.LoginWrongEmail()[pri:6, instance:t...)</span>
+                <span class="method-start">17075 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginHappyScienario</span>
+                <span class="method-start">17082 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=LoginHappyScienario status=SUCCESS method=LoginTest.LoginHappyScienario()[pri:7, in...)</span>
+                <span class="method-start">19661 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.RegistrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openURL</span>
+                <span class="method-start">19668 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforRegister</span>
+                <span class="method-start">19674 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">ScrollUpbeforStart</span>
+                <span class="method-start">20747 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegisterEmptyFirstName</span>
+                <span class="method-start">20772 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=RegisterEmptyFirstName status=SUCCESS method=RegistrationTest.RegisterEmptyFirstNam...)</span>
+                <span class="method-start">22099 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">ScrollUpbeforStart</span>
+                <span class="method-start">22102 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegisterMinFirstName</span>
+                <span class="method-start">22118 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=RegisterMinFirstName status=SUCCESS method=RegistrationTest.RegisterMinFirstName()[...)</span>
+                <span class="method-start">23354 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">ScrollUpbeforStart</span>
+                <span class="method-start">23360 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegisterMaxFirstName</span>
+                <span class="method-start">23372 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=RegisterMaxFirstName status=SUCCESS method=RegistrationTest.RegisterMaxFirstName()[...)</span>
+                <span class="method-start">24828 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">ScrollUpbeforStart</span>
+                <span class="method-start">24832 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegisterEmptyLastName</span>
+                <span class="method-start">24845 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=RegisterEmptyLastName status=SUCCESS method=RegistrationTest.RegisterEmptyLastName(...)</span>
+                <span class="method-start">26043 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">ScrollUpbeforStart</span>
+                <span class="method-start">26049 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegisterMinLastName</span>
+                <span class="method-start">26062 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=RegisterMinLastName status=SUCCESS method=RegistrationTest.RegisterMinLastName()[pr...)</span>
+                <span class="method-start">27262 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">ScrollUpbeforStart</span>
+                <span class="method-start">27267 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegisterMaxLastName</span>
+                <span class="method-start">27281 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=RegisterMaxLastName status=SUCCESS method=RegistrationTest.RegisterMaxLastName()[pr...)</span>
+                <span class="method-start">28582 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">ScrollUpbeforStart</span>
+                <span class="method-start">28586 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegisterEmptyEmail</span>
+                <span class="method-start">28600 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=RegisterEmptyEmail status=SUCCESS method=RegistrationTest.RegisterEmptyEmail()[pri:...)</span>
+                <span class="method-start">29822 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">ScrollUpbeforStart</span>
+                <span class="method-start">29827 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegisterValidEmail</span>
+                <span class="method-start">29839 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=RegisterValidEmail status=SUCCESS method=RegistrationTest.RegisterValidEmail()[pri:...)</span>
+                <span class="method-start">31086 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">ScrollUpbeforStart</span>
+                <span class="method-start">31089 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegisterEmailLreadyExist</span>
+                <span class="method-start">31101 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=RegisterEmailLreadyExist status=SUCCESS method=RegistrationTest.RegisterEmailLready...)</span>
+                <span class="method-start">33587 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">ScrollUpbeforStart</span>
+                <span class="method-start">33595 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegisterEmptyPassword</span>
+                <span class="method-start">33613 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=RegisterEmptyPassword status=SUCCESS method=RegistrationTest.RegisterEmptyPassword(...)</span>
+                <span class="method-start">35071 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">ScrollUpbeforStart</span>
+                <span class="method-start">35076 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegisterMinLengthPassword</span>
+                <span class="method-start">35087 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=RegisterMinLengthPassword status=SUCCESS method=RegistrationTest.RegisterMinLengthP...)</span>
+                <span class="method-start">36285 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">ScrollUpbeforStart</span>
+                <span class="method-start">36289 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegisterEmptyConfirmPassword</span>
+                <span class="method-start">36300 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=RegisterEmptyConfirmPassword status=SUCCESS method=RegistrationTest.RegisterEmptyCo...)</span>
+                <span class="method-start">37457 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">ScrollUpbeforStart</span>
+                <span class="method-start">37462 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegisterMatchConfirmPassword</span>
+                <span class="method-start">37473 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=RegisterMatchConfirmPassword status=SUCCESS method=RegistrationTest.RegisterMatchCo...)</span>
+                <span class="method-start">38715 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">ScrollUpbeforStart</span>
+                <span class="method-start">38720 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">RegisterHappyScinario</span>
+                <span class="method-start">38733 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=RegisterHappyScinario status=FAILURE method=RegistrationTest.RegisterHappyScinario(...)</span>
+                <span class="method-start">55103 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.MyAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openURL</span>
+                <span class="method-start">55455 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeOpenMyAccountPage</span>
+                <span class="method-start">55462 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">WaitDateToReturnToInputsFromAPI</span>
+                <span class="method-start">60358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EditProfileFirstNameMinLength</span>
+                <span class="method-start">62072 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BeforEachMethodMyAccount</span>
+                <span class="method-start">63306 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=EditProfileFirstNameMinLength status=SUCCESS method=MyAccountTest.EditProfileFirstN...)</span>
+                <span class="method-start">64529 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">WaitDateToReturnToInputsFromAPI</span>
+                <span class="method-start">64537 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EditProfileFirstNameMaxLength</span>
+                <span class="method-start">65407 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BeforEachMethodMyAccount</span>
+                <span class="method-start">66465 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=EditProfileFirstNameMaxLength status=SUCCESS method=MyAccountTest.EditProfileFirstN...)</span>
+                <span class="method-start">67372 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">WaitDateToReturnToInputsFromAPI</span>
+                <span class="method-start">67376 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EditProfileLeaveFirstNameEmpty</span>
+                <span class="method-start">68036 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BeforEachMethodMyAccount</span>
+                <span class="method-start">68788 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=EditProfileLeaveFirstNameEmpty status=SUCCESS method=MyAccountTest.EditProfileLeave...)</span>
+                <span class="method-start">69683 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">WaitDateToReturnToInputsFromAPI</span>
+                <span class="method-start">69688 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EditProfileLastNameMinLength</span>
+                <span class="method-start">70422 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BeforEachMethodMyAccount</span>
+                <span class="method-start">71133 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=EditProfileLastNameMinLength status=SUCCESS method=MyAccountTest.EditProfileLastNam...)</span>
+                <span class="method-start">72047 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">WaitDateToReturnToInputsFromAPI</span>
+                <span class="method-start">72051 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EditProfileLastNameMaxLength</span>
+                <span class="method-start">72849 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BeforEachMethodMyAccount</span>
+                <span class="method-start">73652 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=EditProfileLastNameMaxLength status=SUCCESS method=MyAccountTest.EditProfileLastNam...)</span>
+                <span class="method-start">74448 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">WaitDateToReturnToInputsFromAPI</span>
+                <span class="method-start">74451 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EditProfileLeavelastNameEmpty</span>
+                <span class="method-start">75181 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BeforEachMethodMyAccount</span>
+                <span class="method-start">75809 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=EditProfileLeavelastNameEmpty status=SUCCESS method=MyAccountTest.EditProfileLeavel...)</span>
+                <span class="method-start">76560 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">WaitDateToReturnToInputsFromAPI</span>
+                <span class="method-start">76565 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EditProfileHappyScienario</span>
+                <span class="method-start">77293 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BeforEachMethodMyAccount</span>
+                <span class="method-start">78041 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=EditProfileHappyScienario status=SUCCESS method=MyAccountTest.EditProfileHappyScien...)</span>
+                <span class="method-start">78856 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">LogOutAfterClass</span>
+                <span class="method-start">78858 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.CourseSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openURL</span>
+                <span class="method-start">79185 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">BeforeHome</span>
+                <span class="method-start">79187 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">EmptyCourseNameError</span>
+                <span class="method-start">81810 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=EmptyCourseNameError status=SUCCESS method=CourseSearchTest.EmptyCourseNameError()[...)</span>
+                <span class="method-start">82080 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">MinLengthCourseNameError</span>
+                <span class="method-start">82086 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=MinLengthCourseNameError status=SUCCESS method=CourseSearchTest.MinLengthCourseName...)</span>
+                <span class="method-start">82329 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">MaxLengthCourseNameError</span>
+                <span class="method-start">82332 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=MaxLengthCourseNameError status=SUCCESS method=CourseSearchTest.MaxLengthCourseName...)</span>
+                <span class="method-start">82767 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">NumbersOnlyCourseNameError</span>
+                <span class="method-start">82772 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=NumbersOnlyCourseNameError status=SUCCESS method=CourseSearchTest.NumbersOnlyCourse...)</span>
+                <span class="method-start">83034 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">FirstCharNumberCourseNameError</span>
+                <span class="method-start">83041 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=FirstCharNumberCourseNameError status=SUCCESS method=CourseSearchTest.FirstCharNumb...)</span>
+                <span class="method-start">83333 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">SpecialCharNumberCourseNameError</span>
+                <span class="method-start">83336 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=SpecialCharNumberCourseNameError status=SUCCESS method=CourseSearchTest.SpecialChar...)</span>
+                <span class="method-start">83612 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">SearchCourseHappyScienarioByCheckingOnSearchResultByText</span>
+                <span class="method-start">83615 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=SearchCourseHappyScienarioByCheckingOnSearchResultByText status=SUCCESS method=Cour...)</span>
+                <span class="method-start">91067 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">SearchCourseHappyScienarioByCheckOnSearchResultByListCourseCardsIndex</span>
+                <span class="method-start">91075 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=SearchCourseHappyScienarioByCheckOnSearchResultByListCourseCardsIndex status=SUCCES...)</span>
+                <span class="method-start">122826 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">LogOutAfterClass</span>
+                <span class="method-start">122833 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ChangePasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openURL</span>
+                <span class="method-start">123323 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeOpenMyAccountPage</span>
+                <span class="method-start">123326 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ChangePasswordOldPasswordEmptyError</span>
+                <span class="method-start">126757 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=ChangePasswordOldPasswordEmptyError status=SUCCESS method=ChangePasswordTest.Change...)</span>
+                <span class="method-start">127646 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ChangePasswordOldPasswordMinLengthError</span>
+                <span class="method-start">127649 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=ChangePasswordOldPasswordMinLengthError status=SUCCESS method=ChangePasswordTest.Ch...)</span>
+                <span class="method-start">128398 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ChangePasswordOldPasswordNotMatchError</span>
+                <span class="method-start">128403 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=ChangePasswordOldPasswordNotMatchError status=SUCCESS method=ChangePasswordTest.Cha...)</span>
+                <span class="method-start">130151 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ChangePasswordNewPasswordEmptyError</span>
+                <span class="method-start">130156 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=ChangePasswordNewPasswordEmptyError status=SUCCESS method=ChangePasswordTest.Change...)</span>
+                <span class="method-start">131121 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ChangePasswordNewPasswordMinLengthError</span>
+                <span class="method-start">131124 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=ChangePasswordNewPasswordMinLengthError status=SUCCESS method=ChangePasswordTest.Ch...)</span>
+                <span class="method-start">131940 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ChangePasswordConfirmNewPasswordEmptyError</span>
+                <span class="method-start">131943 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=ChangePasswordConfirmNewPasswordEmptyError status=SUCCESS method=ChangePasswordTest...)</span>
+                <span class="method-start">132680 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ChangePasswordConfirmNewPasswordMinLengthError</span>
+                <span class="method-start">132684 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=ChangePasswordConfirmNewPasswordMinLengthError status=SUCCESS method=ChangePassword...)</span>
+                <span class="method-start">133447 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ChangePasswordConfirmNewPasswordNotMatchError</span>
+                <span class="method-start">133451 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=ChangePasswordConfirmNewPasswordNotMatchError status=SUCCESS method=ChangePasswordT...)</span>
+                <span class="method-start">134241 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ChangePasswordCurrentPasswordSameNewPassword</span>
+                <span class="method-start">134246 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=ChangePasswordCurrentPasswordSameNewPassword status=SUCCESS method=ChangePasswordTe...)</span>
+                <span class="method-start">136278 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ChangePasswordHappyScienario</span>
+                <span class="method-start">136284 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=ChangePasswordHappyScienario status=SUCCESS method=ChangePasswordTest.ChangePasswor...)</span>
+                <span class="method-start">138207 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">LogOutAfterClass</span>
+                <span class="method-start">138211 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ForgetPasswordEmailTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openURL</span>
+                <span class="method-start">138527 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">BeforeForgetPassword</span>
+                <span class="method-start">138530 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ForgetPasswordEmptyEmial</span>
+                <span class="method-start">139417 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=ForgetPasswordEmptyEmial status=SUCCESS method=ForgetPasswordEmailTest.ForgetPasswo...)</span>
+                <span class="method-start">139741 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ForgetPasswordNotValidEmial</span>
+                <span class="method-start">139744 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=ForgetPasswordNotValidEmial status=SUCCESS method=ForgetPasswordEmailTest.ForgetPas...)</span>
+                <span class="method-start">140099 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ForgetPasswordNotRegisteredEmial</span>
+                <span class="method-start">140101 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=ForgetPasswordNotRegisteredEmial status=SUCCESS method=ForgetPasswordEmailTest.Forg...)</span>
+                <span class="method-start">141130 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ForgetPasswordHappyScinario</span>
+                <span class="method-start">141142 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=ForgetPasswordHappyScinario status=SUCCESS method=ForgetPasswordEmailTest.ForgetPas...)</span>
+                <span class="method-start">142952 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ForgetPasswordOTPTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openURL</span>
+                <span class="method-start">142955 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">BeforeForgetPassword</span>
+                <span class="method-start">142958 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ForgetPasswordEmptyOTPCode</span>
+                <span class="method-start">144371 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=ForgetPasswordEmptyOTPCode status=SUCCESS method=ForgetPasswordOTPTest.ForgetPasswo...)</span>
+                <span class="method-start">146168 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ForgetPasswordNotValidOTPCode</span>
+                <span class="method-start">146176 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=ForgetPasswordNotValidOTPCode status=SUCCESS method=ForgetPasswordOTPTest.ForgetPas...)</span>
+                <span class="method-start">146681 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ForgetPasswordWrongOTPCode</span>
+                <span class="method-start">146689 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=ForgetPasswordWrongOTPCode status=SUCCESS method=ForgetPasswordOTPTest.ForgetPasswo...)</span>
+                <span class="method-start">147960 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ForgetPasswordHappyScinario</span>
+                <span class="method-start">147963 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=ForgetPasswordHappyScinario status=SUCCESS method=ForgetPasswordOTPTest.ForgetPassw...)</span>
+                <span class="method-start">149219 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ForgetPasswordResetPasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openURL</span>
+                <span class="method-start">149223 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">BeforeForgetPassword</span>
+                <span class="method-start">149226 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ForgetPasswordEmptyNewPassword</span>
+                <span class="method-start">152007 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=ForgetPasswordEmptyNewPassword status=SUCCESS method=ForgetPasswordResetPasswordTes...)</span>
+                <span class="method-start">153256 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ForgetPasswordMinLengthNewPassword</span>
+                <span class="method-start">153259 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=ForgetPasswordMinLengthNewPassword status=SUCCESS method=ForgetPasswordResetPasswor...)</span>
+                <span class="method-start">153742 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ForgetPasswordEmptyConfirmNewPassword</span>
+                <span class="method-start">153745 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=ForgetPasswordEmptyConfirmNewPassword status=SUCCESS method=ForgetPasswordResetPass...)</span>
+                <span class="method-start">154201 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ForgetPasswordNotMatchConfirmNewPassword</span>
+                <span class="method-start">154205 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=ForgetPasswordNotMatchConfirmNewPassword status=SUCCESS method=ForgetPasswordResetP...)</span>
+                <span class="method-start">155421 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ForgetPasswordHappyScinario</span>
+                <span class="method-start">155426 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakeScrrenShots([TestResult name=ForgetPasswordHappyScinario status=SUCCESS method=ForgetPasswordResetPasswordTest.F...)</span>
+                <span class="method-start">156871 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
